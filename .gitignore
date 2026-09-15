@@ -15,4 +15,5 @@ Thumbs.db
 # Exclude everything except the dashboard
 /*
 !bsr_monitor_dashboard_*.html
+!index.html
 !.gitignore
