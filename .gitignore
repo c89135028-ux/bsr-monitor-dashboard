@@ -1,0 +1,18 @@
+# Python scripts
+*.py
+
+# JSON temp files
+_excel_data.json
+_excel_11days_data.json
+
+# WorkBuddy internal
+.workbuddy/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Exclude everything except the dashboard
+/*
+!bsr_monitor_dashboard_*.html
+!.gitignore
