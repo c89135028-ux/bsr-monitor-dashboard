@@ -10154,9 +10154,9 @@ function renderPairDiffBucketDistribution(container, matchedPairs) {
     html += '<tr style="background:#f8f9ff;font-weight:700;">' +
       '<td>合计</td>' +
       '<td class="cell-higher">' + countHigher + '</td>' +
-      '<td style="color:#dc2626;">' + (countHigher > 0 ? '100.0%' : '-') + '</td>' +
+      '<td style="color:#dc2626;">' + (total > 0 ? (countHigher / total * 100).toFixed(1) + '%' : '-') + '</td>' +
       '<td class="cell-lower">' + countLower + '</td>' +
-      '<td style="color:#22c55e;">' + (countLower > 0 ? '100.0%' : '-') + '</td>' +
+      '<td style="color:#22c55e;">' + (total > 0 ? (countLower / total * 100).toFixed(1) + '%' : '-') + '</td>' +
       '<td></td>' +
       '</tr>';
 
